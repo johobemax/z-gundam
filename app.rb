@@ -2,6 +2,6 @@ require 'rubygems'
 require 'sinatra'
 
 get '/' do
- "Hello, Horld"
+  erb :index
 end
 
